@@ -84,9 +84,10 @@ define([
       });
     }
 
+    GetAndBuildChart('game-chart', 'Challenges', 'Total', 'games');
     GetAndBuildChart('climber-chart', 'Climbers', 'Total', 'climbers');
+    GetAndBuildChart('activity-chart', 'Activities', 'Total', 'activities');
     GetAndBuildChart('fundraising-chart', 'Fundraising', 'Total £', 'fundraising');
-    GetAndBuildChart('campaign-chart', 'Campaigns', 'Total', 'campaign');
   };
 
   return { 
