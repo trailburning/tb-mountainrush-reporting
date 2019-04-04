@@ -47,7 +47,7 @@ class MRChart extends Component {
           }}
         >
           <XAxis dataKey="key" />
-          <YAxis label={{ value: this.props.yxis, angle: -90, position: 'insideLeft' }} width={80} />
+          <YAxis label={{ value: this.props.yxis, angle: -90, position: 'insideLeft' }} width={80} allowDecimals={false} />
           <Bar dataKey="value" fill="#3c5b6e" />
         </BarChart>
         }
