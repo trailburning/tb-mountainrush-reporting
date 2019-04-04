@@ -27,7 +27,7 @@ define([
          .attr("transform", "translate(100,0)")
          .attr("x", 50)
          .attr("y", 50)
-         .attr("font-size", "24px")
+         .attr("font-size", "18px")
          .attr("font-family", "sans-serif")
          .text(strTitle)
 
